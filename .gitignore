@@ -1,3 +1,8 @@
-node_modules
-uploads
-tmp
+# Exclude dependencies and all their children
+node_modules/
+
+# Exclude uploaded files and all their children
+uploads/
+
+# Exclude temp files and all their children
+tmp/
